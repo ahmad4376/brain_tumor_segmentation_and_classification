@@ -1,11 +1,11 @@
 # Brain Tumor Segmentation and Classification
 
-This repository contains the implementation of a deep learning-based solution for the segmentation and classification of brain tumors from MRI scans. The project leverages U-Net for tumor segmentation and EfficientNetB1 for classification, providing an automated tool for medical image analysis. Additionally, a **Streamlit** application has been created to allow real-time analysis by non-technical users.
+This repository contains the implementation of a deep learning-based solution for the segmentation and classification of brain tumors from MRI scans. The project leverages U-Net with MobileNetV2 for tumor segmentation and EfficientNetB1 for classification, providing an automated tool for medical image analysis. Additionally, a **Streamlit** application has been created to allow real-time analysis by non-technical users.
 
 ## Project Overview
 
 Brain tumors are a significant health concern globally, and their early detection is crucial for timely treatment. This project aims to automate the process of tumor segmentation and classification using deep learning techniques, improving both the speed and accuracy of diagnosis. The solution integrates:
-1. **Tumor Segmentation** using the **U-Net** architecture.
+1. **Tumor Segmentation** using the **U-Net** architecture utilizing MobileNetV2.
 2. **Tumor Classification** using the **EfficientNetB1** architecture.
 3. A **Streamlit Application** for easy interaction, allowing users to upload MRI scans, get segmented tumors, and classify them.
 
